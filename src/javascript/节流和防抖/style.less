@@ -1,0 +1,23 @@
+.demoWrap {
+    display: flex;
+    align-items: center;
+
+    .demoItem {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+        border-radius: 4px;
+        background: #eee;
+        user-select: none;
+
+        & + .demoItem {
+            margin-left: 20px;
+        }
+        .tips {
+            font-size: 30px;
+            color: #999;
+        }
+    }
+}
